@@ -1,0 +1,9 @@
+# 服务器端口
+server.port=8082
+#配置访问路径
+server.servlet.context-path=/path
+
+#name=xuchengang
+#age=24
+
+

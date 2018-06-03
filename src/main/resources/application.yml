@@ -1,0 +1,16 @@
+# 配置当前运行环境为开发环境
+spring:
+  profiles:
+    active: dev
+  datasource: # 数据源配置
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/hapdemo_dev
+    username: hapdemo_dev
+    password: hapdemo_dev
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
+
