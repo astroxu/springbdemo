@@ -1,3 +1,4 @@
+/*
 package com.xcg.springbdemo.user.controller;
 
 import com.xcg.springbdemo.user.dto.User;
@@ -22,25 +23,33 @@ public class UserController {
     @Autowired
     UserSerivceImpl userSerivce;
 
-    /*查询所有*/
+    */
+/*查询所有*//*
+
     @GetMapping("/users")
     public List findUserList(){
         return userRepository.findAll();
     }
 
-    /*添加数据*/
+    */
+/*添加数据*//*
+
     @PostMapping("/users/addMore")
     public void addMore(){
         userSerivce.addMoreUsers();
     }
 
-    /*批量添加数据*/
+    */
+/*批量添加数据*//*
+
     @PostMapping("/users/addList")
     public void addMoreList(){
         userSerivce.addMoreList();
     }
 
-    /*添加一个用户数据*/
+    */
+/*添加一个用户数据*//*
+
     @PostMapping("/users/add")
     public User addUser(@RequestParam("name") String name,
                         @RequestParam("age") Integer age,
@@ -58,3 +67,4 @@ public class UserController {
 }
 
 
+*/

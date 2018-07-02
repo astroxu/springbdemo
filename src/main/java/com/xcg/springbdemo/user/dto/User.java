@@ -1,3 +1,4 @@
+/*
 package com.xcg.springbdemo.user.dto;
 
 
@@ -5,10 +6,12 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
+*/
 /**
  * @Author: CHENGANGGO@GMAIL.COM
  * @Date: 2018/5/27 23:03
- */
+ *//*
+
 @Entity //代表实体，会在数据库生成一个User表
 public class User {
 
@@ -19,7 +22,9 @@ public class User {
     private Integer age;
     private String sex;
 
-    /*构造函数必须有*/
+    */
+/*构造函数必须有*//*
+
     public User() {}
 
     public Integer getId() {
@@ -55,3 +60,4 @@ public class User {
     }
 
 }
+*/

@@ -1,3 +1,4 @@
+/*
 package com.xcg.springbdemo.user.service;
 
 import com.xcg.springbdemo.user.repository.UserRepository;
@@ -14,7 +15,9 @@ public class UserSerivceImpl {
     @Autowired
     UserRepository userRepository;
 
-    /*事务控制*/
+    */
+/*事务控制*//*
+
     @Transactional
     public void addMoreUsers(){
         User user1 = new User();
@@ -29,7 +32,9 @@ public class UserSerivceImpl {
         userRepository.save(user2);
     }
 
-    /*list批量操作*/
+    */
+/*list批量操作*//*
+
     public void addMoreList(){
         List userList = new ArrayList();
         User user1 = new User();
@@ -46,3 +51,4 @@ public class UserSerivceImpl {
         //userRepository.save(userList);
     }
 }
+*/
